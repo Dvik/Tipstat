@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Tipstat</string>
+    <string name="drawer_open">Menu opened</string>
+    <string name="drawer_close">Menu closed</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="sort">
+
+        <item>Height</item>
+        <item>Weight</item>
+
+    </string-array>
+
+    <string-array name="ethnic">
+        <item>All</item>
+        <item>Indian</item>
+        <item>African Americans</item>
+        <item>Asian Americans</item>
+        <item>European</item>
+        <item>British</item>
+        <item>Jewish</item>
+        <item>Latino</item>
+        <item>Native American</item>
+        <item>Arabic</item>
+
+    </string-array>
+
+</resources>

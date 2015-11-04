@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+
+        android:id="@+id/img"/>
+    <TextView
+        android:id="@+id/txt_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Status dssdv rs frs vrvre vre vre vre vre v re vre vre vre vre vewvew  ewv rew vre vre vre r ev we vwe vwr vwr"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:singleLine="true"
+        android:lines="1"
+        android:ems="3"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="#000000"
+        android:textSize="15sp"
+     />
+</LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/txt_row"
+        android:layout_marginTop="20dp"
+        android:background="#d3d3d3" />
+</LinearLayout>
+

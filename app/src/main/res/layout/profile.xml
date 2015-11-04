@@ -1,0 +1,181 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/prof_layout"
+    android:background="@android:color/white">
+
+
+    <include android:id="@+id/profile_toolbar" layout="@layout/toolbarprofile"
+        android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/profile_toolbar"
+        android:background="@color/myPrimaryColor"
+        android:id="@+id/prof_layout2"
+        android:paddingTop="24dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id = "@+id/prof_img"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/prof_date"
+            android:layout_alignStart="@+id/prof_date" />
+        <TextView
+            android:id = "@+id/prof_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/prof_img"
+            android:text = "American African"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFFFFF"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/prof_tv1"
+            android:text = "27-01-1991"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFFFFF"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/prof_date" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/prof_layout2"
+        android:layout_marginTop="20dp"
+        android:id="@+id/prof_layout3"
+        >
+        <ImageView
+            android:id = "@+id/prof_action_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src = "@drawable/ic_label_black_24dp"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:id="@+id/prof_status"
+            android:layout_toRightOf="@+id/prof_action_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:text = "jcnjdcnjndjcndjcdj cduc dcbdv ved vefergfregre erg  er g re ger ger ger  erg re gre gerg "
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            />
+
+
+</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/prof_layout3"
+        android:layout_marginTop="20dp"
+        android:id="@+id/prof_layout4"
+        >
+        <ImageView
+            android:id = "@+id/prof_weight_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src = "@drawable/ic_directions_walk_black_24dp"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:layout_toRightOf="@+id/prof_weight_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:text = "45.23kg"
+            android:id="@+id/prof_weight"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            />
+        </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/prof_layout4"
+        android:layout_marginTop="20dp"
+        android:id="@+id/prof_layout5"
+        >
+        <ImageView
+            android:id = "@+id/prof_height_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src = "@drawable/ic_person_black_24dp"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:id="@+id/prof_height"
+            android:layout_toRightOf="@+id/prof_height_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:text = "163cm"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/prof_layout5"
+        android:layout_marginTop="20dp"
+        android:id="@+id/prof_layout6"
+        >
+        <ImageView
+            android:id = "@+id/prof_drink_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src = "@drawable/ic_local_bar_black_24dp"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:id="@+id/prof_drink"
+            android:layout_toRightOf="@+id/prof_drink_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:text = "Don't Drink"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/prof_layout6"
+        android:layout_marginTop="20dp"
+        android:id="@+id/prof_layout7"
+        >
+        <ImageView
+            android:id = "@+id/prof_veg_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src = "@drawable/ic_action1"
+            android:layout_marginLeft="15dp"/>
+        <TextView
+            android:id = "@+id/prof_veg"
+            android:layout_toRightOf="@+id/prof_veg_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:text = "Vegetarian"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="20dp"
+            />
+    </RelativeLayout>
+</RelativeLayout>
